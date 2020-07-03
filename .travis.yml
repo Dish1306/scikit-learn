@@ -21,7 +21,7 @@ matrix:
   include:
     # Linux environment to test scikit-learn against numpy and scipy master
     # installed from their CI wheels in a virtualenv with the Python
-    # interpreter provided by travis.
+    # interpreter provided by travis .
     -  python: 3.7
        arch: arm64
        env: CHECK_WARNINGS="true"
